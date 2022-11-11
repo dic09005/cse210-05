@@ -29,7 +29,7 @@ The project files and folders are organized as follows:
 cse210-05 (project root folder)
     │ README.md (general info)
 
-C   │ **main**.py (entry point for program) (NEEDS CHANGED) Rob
+C   │ **main**.py (entry point for program) (NEEDS CHANGED) Robin
     │ constants.py (good)
     └───game (specific game folders)
     └───casting
