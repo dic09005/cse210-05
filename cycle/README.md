@@ -29,23 +29,23 @@ The project files and folders are organized as follows:
 cse210-05 (project root folder)
     │ README.md (general info)
 
-C   │ **main**.py (entry point for program) (NEEDS CHANGED)
+C   │ **main**.py (entry point for program) (NEEDS CHANGED) Rob
     │ constants.py (good)
     └───game (specific game folders)
     └───casting
         │ actor.py (good)
         │ cast.py (good)
         │ food.py (we don't need food)
-C       │ score.py (NEEDS CHANGED)
-C       │ snake.py (NEEDS CHANGED)
+C       │ score.py (NEEDS CHANGED) Sariah
+C       │ snake.py (NEEDS CHANGED) Nefi
     └───directing
         │ director.py (good)
     └───scripting
         │ action.py (good)
-C       │ control_actors_action.py (NEEDS CHANGED)
-C       | control_actors_growing.py (NEEDS ADDED)
-C       │ draw_actors_action.py (NEEDS CHANGED)
-C       │ handle_collisions_action.py (NEEDS CHANGED)
+C       │ control_actors_action.py (NEEDS CHANGED) Nefi
+C       | control_actors_growing.py (NEEDS ADDED) Robin
+C       │ draw_actors_action.py (NEEDS CHANGED) Ron
+C       │ handle_collisions_action.py (NEEDS CHANGED) Ron
         │ move_actors_action.py (good)
         │ script.py (good)
     └───services
