@@ -25,34 +25,37 @@ project folder. Select the main module inside the hunter folder and click the "r
 The project files and folders are organized as follows:
 ```
 
+```
 cse210-05 (project root folder)
-│ README.md (general info)
+    │ README.md (general info)
 
-C │ **main**.py (entry point for program) (NEEDS CHANGED)
-│ constants.py (don't change)
-└───game (specific game folders)
-└───casting
-│ actor.py (good)
-│ cast.py (good)
-│ food.py (we don't need food)
-C │ score.py (NEEDS CHANGED)
-C │ snake.py (NEEDS CHANGED)
-└───directing
-│ director.py (don't change)
-└───scripting
-│ action.py (don't change)
-C │ control_actors_action.py (NEEDS CHANGED)
-C | control_actors_growing.py (NEEDS ADDED)
-C │ draw_actors_action.py (NEEDS CHANGED)
-C │ handle_collisions_action.py (NEEDS CHANGED)
-│ move_actors_action.py (don't change)
-│ script.py (don't change)
-└───services
-│ keyboard_service.py (don't change)
-│ video_service.py (don't change)
-└───shared (good)
-│ color.py (don't change)
-│ point.py (don't change)
+C   │ **main**.py (entry point for program) (NEEDS CHANGED)
+    │ constants.py (good)
+    └───game (specific game folders)
+    └───casting
+        │ actor.py (good)
+        │ cast.py (good)
+        │ food.py (we don't need food)
+C       │ score.py (NEEDS CHANGED)
+C       │ snake.py (NEEDS CHANGED)
+    └───directing
+        │ director.py (good)
+    └───scripting
+        │ action.py (good)
+C       │ control_actors_action.py (NEEDS CHANGED)
+C       | control_actors_growing.py (NEEDS ADDED)
+C       │ draw_actors_action.py (NEEDS CHANGED)
+C       │ handle_collisions_action.py (NEEDS CHANGED)
+        │ move_actors_action.py (good)
+        │ script.py (good)
+    └───services
+        │ keyboard_service.py (good)
+        │ video_service.py (good)
+    └───shared (good)
+        │ color.py (good)
+        │ point.py (good)
+
+```
 
 ```
 
