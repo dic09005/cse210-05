@@ -52,10 +52,10 @@ class HandleCollisionsAction(Action):
         for segment in segments:
             if head_1.get_position().equals(segment.get_position()) or head_1.get_position().equals(head_2.get_position()):
                 scores[1].add_points(1)
-                self._is_game_over = True
+                self._is_game_over = False
             elif head_2.get_position().equals(segment.get_position()) or head_2.get_position().equals(head_1.get_position()):
                 scores[0].add_points(1)
-                self._is_game_over = True
+                self._is_game_over = False
         
     def _handle_game_over(self, cast, script):
         """Shows the 'game over' message and turns the snake and food white if the game is over.
