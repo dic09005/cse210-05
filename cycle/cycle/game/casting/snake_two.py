@@ -54,7 +54,7 @@ class Snake_two(Actor):
     
     def _prepare_body(self):
     
-    # Position the snake in the screen in different places according to its color
+    # Position the snake in the screen according to its color
         if self._color == constants.GREEN:
             x = int(constants.MAX_X / 4 * 3)
             y = int(constants.MAX_Y / 2)
