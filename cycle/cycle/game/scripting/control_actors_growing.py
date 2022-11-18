@@ -1,7 +1,6 @@
 import constants
 from game.scripting.action import Action
 
-
 class ControlGrowing(Action):
     """
     An input action that controls the snake.
